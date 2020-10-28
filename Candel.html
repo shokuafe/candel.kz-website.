@@ -1,0 +1,711 @@
+span2myModal3<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="Candel.css">
+  <link rel="stylesheet" href="css/slider1.css">
+  <link rel="stylesheet" href="animate.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- JQUERY FOR SCROLLING START-->
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <!-- JQUERY FOR SCROLLING END-->
+  <title>Candel.kz</title>
+</head>
+
+<body>
+  <div class="border_size">
+
+    <!-- HEADER START -->
+    <div class="header" id="header">
+      <ul class="menu_item">
+        <a href="#logo">
+          <div class="header_logo"><img src="Pictures\logo\C.png" alt="" width="40"></div>
+        </a>
+        <li><a href="#products">ПРОДУКТЫ</a></li>
+        <li><a href="#galery">ГАЛЕРЕЯ</a></li>
+        <li><a href="#recomend">ИМЕННО МЫ</a></li>
+        <li><a href="#contacts">КОНТАКТЫ</a></li>
+      </ul>
+    </div>
+    <!-- HEADER END -->
+
+
+    <!--NAVBAR MOVING START-->
+    <div class="link_logo"><a name="logo" id="logo"></a></div>
+    <!--NAVBAR MOVING END-->
+
+    <!-- LOGO START -->
+    <div class="box_logo">
+      <div class="logo_text">
+        <img src="Pictures\logo\Candel.png" alt="" width="800px">
+        <p>Делаем жизнь ярче</p>
+      </div>
+    </div>
+    <!-- LOGO END -->
+
+
+    <!--NAVBAR MOVING START-->
+    <div class="link_products"><a name="products" id="products"></a></div>
+    <!--NAVBAR MOVING END-->
+
+    <!-- PRODUCTS START -->
+    <!-- ТУТ НАДО ПОПРАВИТЬ ШИРИНУ, ВЫХОДИТ ЗА РАМКИ -->
+    <div class="box_products_wrapper">
+      <div class="empty_box">
+        <p></p>
+      </div>
+      <h1>Мы производим</h1>
+      <div class="box_products">
+        <div class="product">
+          <a href="javascript:PopUpShow()" class="hover_prod_light">
+            <!-- СКРИПТ ДЛЯ УКАЗАНИЯ НА ВСПЛЫВАЮЩЕЕ ОКНО -->
+            <img class="prod_image" src="Pictures\products\light_blue.png" alt="">
+          </a>
+          <p class="prod_desc">Светодиодные фонари для освещения промышленных объектов и зданий</p>
+        </div>
+        <div class="product">
+          <a href="javascript:PopUpShow2()" class="hover_prod_light">
+            <img class="prod_image" src="Pictures\products\tablo_blue.png" alt="">
+          </a>
+          <p class="prod_desc">Электронное табло курсов валют</p>
+        </div>
+        <div class="product">
+          <a href="javascript:PopUpShow3()" class="hover_prod_light">
+            <img class="prod_image" src="Pictures\products\stella_blue.png" alt="">
+          </a>
+          <p class="prod_desc">Электронные светодиодные ценовые табло для автозаправочных станций (АЗС)</p>
+        </div>
+      </div>
+    </div>
+    <!-- PRODUCTS END -->
+
+
+    <!--NAVBAR MOVING START-->
+    <div class="link_galery"><a name="galery" id="galery"></a></div>
+    <!--NAVBAR MOVING END-->
+
+    <!-- GALERY START -->
+    <div class="box_galery_wrapper">
+      <div class="empty_box">
+        <p>Галерея</p>
+      </div>
+      <h1>Наши рукоделия на объектах</h1>
+      <div class="box_galery">
+        <div class="slide_pos">
+        <div class="slide_container">
+          <input type="radio" name="button" id="slider_image_1" checked>
+          <input type="radio" name="button" id="slider_image_2">
+          <input type="radio" name="button" id="slider_image_3">
+          <div class="image_container">
+            <img src="Pictures/slider/slider11.png" alt="" class="slider-image s1" id="zoom_picture">
+            <img src="Pictures/slider/7.jpg" alt="" class="slider-image" id="zoom_picture1">
+            <img src="Pictures/slider/slider350_2.png" alt="" class="slider-image" id="zoom_picture2">
+          </div>
+          <div class="button_container">
+            <label for="slider_image_1" class="slider_button"></label>
+            <label for="slider_image_2" class="slider_button"></label>
+            <label for="slider_image_3" class="slider_button"></label>
+          </div>
+        </div>
+        <div class="slider_text">
+          <p>anim sunt sunt illum quem irure quem noster nulla multos ipsum quorum eram
+            aliqua multos quorum quae nos</p>
+        </div>
+        </div>
+        <div class="slide_pos">
+        <div class="slide_container2">
+          <input type="radio" name="button2" id="slider_image_4" checked>
+          <input type="radio" name="button2" id="slider_image_5">
+          <input type="radio" name="button2" id="slider_image_6">
+          <div class="image_container2">
+            <img src="Pictures/slider/slider350.png" alt="" class="slider-image s1" id="zoom_picture3">
+            <img src="Pictures/slider/slider350_1.png" alt="" class="slider-image" id="zoom_picture4">
+            <img src="Pictures/slider/slider350_2.png" alt="" class="slider-image" id="zoom_picture5">
+          </div>
+          <div class="button_container2">
+            <label for="slider_image_4" class="slider_button2"></label>
+            <label for="slider_image_5" class="slider_button2"></label>
+            <label for="slider_image_6" class="slider_button2"></label>
+          </div>
+        </div>
+        <div class="slider_text">
+          <p>anim sunt sunt illum quem irure quem noster nulla multos ipsum quorum eram
+            aliqua multos quorum quae nos</p>
+        </div>
+        </div>
+        <div class="slide_pos">
+        <div class="slide_container3">
+          <input type="radio" name="button3" id="slider_image_7" checked>
+          <input type="radio" name="button3" id="slider_image_8">
+          <input type="radio" name="button3" id="slider_image_9">
+          <div class="image_container3">
+            <img src="Pictures/slider/slider350.png" alt="" class="slider-image s1" id="zoom_picture6">
+            <img src="Pictures/slider/slider350_1.png" alt="" class="slider-image" id="zoom_picture7">
+            <img src="Pictures/slider/slider350_2.png" alt="" class="slider-image" id="zoom_picture8">
+          </div>
+          <div class="button_container3">
+            <label for="slider_image_7" class="slider_button3"></label>
+            <label for="slider_image_8" class="slider_button3"></label>
+            <label for="slider_image_9" class="slider_button3"></label>
+          </div>
+        </div>
+        <div class="slider_text">
+          <p>anim sunt sunt illum quem irure quem noster nulla multos ipsum quorum eram
+            aliqua multos quorum quae nos</p>
+        </div>
+        </div>
+      </div>
+    </div>
+    <!-- GALERY END -->
+
+
+    <!--NAVBAR MOVING START-->
+    <div class="link_recomend"><a name="recomend" id="recomend"></a></div>
+    <!--NAVBAR MOVING END-->
+
+    <!-- RECOMEND START -->
+    <div class="box_recomend_wrapper">
+      <div class="empty_box">
+        <p>EMPTY SPACE FOR NAVBAR MOVING</p>
+      </div>
+      <h1>Почему именно мы?</h1>
+      <div class="box_recomend">
+        <div class="recomend_icon1">
+          <p><img src="Pictures/recomend/icon1.png" alt="" class="recomend_text1">
+            <div class="Project-hail"></div>
+            <div class="Project-hail2"></div>
+            <div class="recomend_text_icon">Предоставляем 2 года гарантии на любой товар</div>
+          </p>
+        </div>
+        <div class="recomend_icon1">
+          <p><img src="Pictures/recomend/icon2.png" alt="" class="recomend_text1">
+            <div class="Project-hail"></div>
+            <div class="Project-hail2"></div>
+            <div class="recomend_text_icon">Отправим товар в любую точку земного шара</div>
+          </p>
+        </div>
+        <div class="recomend_icon1">
+          <p><img src="Pictures/recomend/icon3.png" alt="" class="recomend_text1">
+            <div class="Project-hail"></div>
+            <div class="Project-hail2"></div>
+            <div class="recomend_text_icon">Выполним заказ в установленный срок</div>
+          </p>
+        </div>
+        <div class="recomend_icon1">
+          <p><img src="Pictures/recomend/icon4.png" alt="" class="recomend_text1">
+            <div class="Project-hail"></div>
+            <div class="Project-hail2"></div>
+            <div class="recomend_text_icon">Отремонтируем продукт при его поломке</div>
+          </p>
+        </div>
+        <div class="recomend_icon1">
+          <p><img src="Pictures/recomend/icon5.png" alt="" class="recomend_text1">
+            <div class="Project-hail"></div>
+            <div class="Project-hail2"></div>
+            <div class="recomend_text_icon">Для каждого товара сущетвует соответствующая документация об эксплуатации</div>
+          </p>
+        </div>
+        <div class="recomend_icon1">
+          <p><img src="Pictures/recomend/icon6.png" alt="" class="recomend_text1">
+            <div class="Project-hail"></div>
+            <div class="Project-hail2"></div>
+            <div class="recomend_text_icon">Поддерживаем связь с клиентами на постоянной основе</div>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- RECOMEND END -->
+
+
+    <!--NAVBAR MOVING START-->
+    <div class="link_contacts"><a name="contacts" id="contacts"></a></div>
+    <!--NAVBAR MOVING END-->
+
+
+    <!-- CONTACTS START -->
+    <div class="box_contacts_wrapper">
+      <div class="empty_box">
+        <p>EMPTY SPACE FOR NAVBAR MOVING</p>
+      </div>
+      <h1>Как с нами связаться?</h1>
+      <div class="box_contacts">
+        <div class="contacts_title">
+          <div class="contact_line">
+            <p><img src="Pictures/contacts/location.png" alt="" class="contact_image wow">
+              Адрес офиса: 050022, Алматы, ул. Староэлеваторская, 19
+          </div>
+          </p>
+          <div class="contact_line">
+            <p><img src="Pictures/contacts/phone.png" alt="" class="contact_image wow">Телефон: +7 (727) 385 23 63<br>
+              Телефон: +7 (777) 303 30 30</p>
+          </div>
+          <div class="contact_line">
+            <p><img src="Pictures/contacts/mail.png" alt="" class="contact_image wow">
+              <div class="mail">E-Mail: info@candel.kz</div>
+            </p>
+          </div>
+        </div>
+        <div class="map">
+          <div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
+            <div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div>
+          </div>
+        </div>
+      </div>
+      <!-- CONTACTS END -->
+
+    </div>
+
+    <!-- BORDER SIZE END -->
+
+
+
+    <!-- POPUP START -->
+    <div class="prod_popup" id="popup">
+      <div class="prod_popup_active">
+        <a class="prod_popup_button" href="javascript:PopUpHide()"></a>
+        <div class="prod_popup_content">
+          <h4><b>MARK I</b></h4>
+          <img src="Pictures\popup_products\light1.png" alt="">
+          <h3>Технические параметры</h3><p class="prod_popup_text">
+            Светодиодный фонарь мощностью 60 Вт<br>
+            Световой поток: 8500 lm<br>
+            Световая температура: 5000К<br>
+            Способ монтажа: На столб<br>
+            <b>Цена: 400000 тенге</b></p>
+        </div>
+        <div class="prod_popup_content">
+          <h4><b>MARK II</b></h4>
+          <img src="Pictures\popup_products\light2.png" alt="">
+          <h3>Технические параметры</h3><p class="prod_popup_text">
+            Светодиодный фонарь мощностью 60 Вт<br>
+            Световой поток: 8500 lm<br>
+            Световая температура: 5000К<br>
+            Способ монтажа: На столб<br>
+            <b>Цена: 400000 тенге</b></p>
+        </div>
+        <!-- <div class="prod_popup_content">
+          <img src="Pictures\popup_products\gas3.jpg" alt="">
+          <p class="prod_popup_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, dolor!</p>
+        </div>
+        <div class="prod_popup_content">
+          <img src="Pictures\popup_products\gas1.jpg" alt="">
+          <p class="prod_popup_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, dolor!</p>
+        </div>
+        <div class="prod_popup_content">
+          <img src="Pictures\popup_products\gas2.jpg" alt="">
+          <p class="prod_popup_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, dolor!</p>
+        </div>
+        <div class="prod_popup_content">
+          <img src="Pictures\popup_products\gas3.jpg" alt="">
+          <p class="prod_popup_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, dolor!</p>
+        </div> -->
+      </div>
+    </div>
+
+    <div class="prod_popup" id="popup2">
+      <div class="prod_popup_active1">
+        <a class="prod_popup_button" href="javascript:PopUpHide2()"></a>
+        <div class="prod_popup_content1">
+          <h4><b>MARK I</b></h4>
+          <img src="Pictures\popup_products\" alt="">
+          <h3>Технические параметры</h3><p class="prod_popup_text">
+            Светодиодный фонарь мощностью 60 Вт<br>
+            Световой поток: 8500 lm<br>
+            Световая температура: 5000К<br>
+            Способ монтажа: На столб<br>
+            <b>Цена: 400000 тенге</b></p>
+        </div>
+        <div class="prod_popup_content1">
+          <h4><b>MARK I</b></h4>
+          <img src="Pictures\popup_products\gas2.jpg" alt="">
+          <h3>Технические параметры</h3><p class="prod_popup_text">
+            Светодиодный фонарь мощностью 60 Вт<br>
+            Световой поток: 8500 lm<br>
+            Световая температура: 5000К<br>
+            Способ монтажа: На столб<br>
+            <b>Цена: 400000 тенге</b></p>
+        </div>
+        <div class="prod_popup_content1">
+          <h4><b>MARK I</b></h4>
+          <img src="Pictures\popup_products\gas3.jpg" alt="">
+          <h3>Технические параметры</h3><p class="prod_popup_text">
+            Светодиодный фонарь мощностью 60 Вт<br>
+            Световой поток: 8500 lm<br>
+            Световая температура: 5000К<br>
+            Способ монтажа: На столб<br>
+            <b>Цена: 400000 тенге</b></p>
+        </div>
+        </div>
+        <!-- <div class="prod_popup_content1">
+          <img src="Pictures\popup_products\gas1.jpg" alt="">
+          <p class="prod_popup_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, dolor!</p>
+        </div>
+        <div class="prod_popup_content1">
+          <img src="Pictures\popup_products\gas2.jpg" alt="">
+          <p class="prod_popup_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, dolor!</p>
+        </div>
+        <div class="prod_popup_content1">
+          <img src="Pictures\popup_products\gas3.jpg" alt="">
+          <p class="prod_popup_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, dolor!</p>
+        </div> -->
+      </div>
+    </div>
+
+    <div class="prod_popup" id="popup3">
+      <div class="prod_popup_active">
+        <a class="prod_popup_button" href="javascript:PopUpHide3()"></a>
+        <div class="prod_popup_content">
+          <h4><b>MARK I</b></h4>
+          <img src="Pictures\popup_products\" alt="">
+          <h3>Технические параметры</h3><p class="prod_popup_text">
+            Светодиодный фонарь мощностью 60 Вт<br>
+            Световой поток: 8500 lm<br>
+            Световая температура: 5000К<br>
+            Способ монтажа: На столб<br>
+            <b>Цена: 400000 тенге</b></p>
+        </div>
+        <div class="prod_popup_content">
+          <h4><b>MARK I</b></h4>
+          <img src="Pictures\popup_products\gas2.jpg" alt="">
+          <h3>Технические параметры</h3><p class="prod_popup_text">
+            Светодиодный фонарь мощностью 60 Вт<br>
+            Световой поток: 8500 lm<br>
+            Световая температура: 5000К<br>
+            Способ монтажа: На столб<br>
+            <b>Цена: 400000 тенге</b></p>
+        </div>
+        <!-- <div class="prod_popup_content">
+          <img src="Pictures\popup_products\gas3.jpg" alt="">
+          <p class="prod_popup_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, dolor!</p>
+        </div>
+        <div class="prod_popup_content">
+          <img src="Pictures\popup_products\gas1.jpg" alt="">
+          <p class="prod_popup_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, dolor!</p>
+        </div>
+        <div class="prod_popup_content">
+          <img src="Pictures\popup_products\gas2.jpg" alt="">
+          <p class="prod_popup_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, dolor!</p>
+        </div>
+        <div class="prod_popup_content">
+          <img src="Pictures\popup_products\gas3.jpg" alt="">
+          <p class="prod_popup_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, dolor!</p>
+        </div> -->
+      </div>
+    </div>
+    <!-- POPUP END -->
+
+
+    <!-- SLIDER ZOOMING POPUP START -->
+    <!-- 1 -->
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <img src="Pictures/slider/sliderbox11.jpg" alt="">
+      </div>
+    </div>
+    <!-- 2 -->
+    <div id="myModal1" class="modal1">
+      <div class="modal-content">
+        <span class="close1">&times;</span>
+        <img src="Pictures/slider/sliderbox12.jpg" alt="">
+      </div>
+    </div>
+    <!-- 3 -->
+    <div id="myModal2" class="modal2">
+      <div class="modal-content">
+        <span class="close2">&times;</span>
+        <img src="Pictures/slider/sliderbox13.jpg" alt="">
+      </div>
+    </div>
+    <!-- 4 -->
+    <div id="myModal3" class="modal3">
+      <div class="modal-content">
+        <span class="close3">&times;</span>
+        <img src="Pictures/slider/shell.jpg" alt="" id="zoom_picture_prop">
+      </div>
+    </div>
+    <!-- 5 -->
+    <div id="myModal4" class="modal4">
+      <div class="modal-content">
+        <span class="close4">&times;</span>
+        <img src="Pictures/slider/golden.jpg" alt="">
+      </div>
+    </div>
+    <!-- 6 -->
+    <div id="myModal5" class="modal5">
+      <div class="modal-content">
+        <span class="close5">&times;</span>
+        <img src="Pictures/slider/golden.jpg" alt="">
+      </div>
+    </div>
+    <!-- 7 -->
+    <div id="myModal6" class="modal6">
+      <div class="modal-content">
+        <span class="close6">&times;</span>
+        <img src="Pictures/slider/golden.jpg" alt="">
+      </div>
+    </div>
+    <!-- 8 -->
+    <div id="myModal7" class="modal7">
+      <div class="modal-content">
+        <span class="close7">&times;</span>
+        <img src="Pictures/slider/golden.jpg" alt="">
+      </div>
+    </div>
+    <!-- 9 -->
+    <div id="myModal8" class="modal8">
+      <div class="modal-content">
+        <span class="close8">&times;</span>
+        <img src="Pictures/slider/golden.jpg" alt="">
+      </div>
+    </div>
+    <!-- SLIDER ZOOMING POPUP END -->
+
+
+    <!-- SCRIPT FOR POPUP START-->
+    <script src="http://code.jquery.com/jquery-2.0.2.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        //Скрыть PopUp при загрузке страницы
+        PopUpHide();
+        PopUpHide2();
+        PopUpHide3();
+      });
+      //Функция отображения PopUp
+      function PopUpShow() {
+        $("#popup").show();
+      }
+      //Функция скрытия PopUp
+      function PopUpHide() {
+        $("#popup").hide();
+      }
+
+      function PopUpShow2() {
+        $("#popup2").show();
+      }
+
+      function PopUpHide2() {
+        $("#popup2").hide();
+      }
+
+      function PopUpShow3() {
+        $("#popup3").show();
+      }
+
+      function PopUpHide3() {
+        $("#popup3").hide();
+      }
+    </script>
+    <!-- SCRIPT FOR POPUP END -->
+
+
+    <!-- SCROLLING START-->
+    <script type="text/javascript">
+      $(document).ready(function() {
+
+        //ID блока с ссылками #prime_nav
+        $("#header").on("click", "a", function(event) {
+          //отменяем стандартную обработку нажатия по ссылке
+          event.preventDefault();
+
+          //забираем идентификатор бока с атрибута href
+          var id = $(this).attr('href'),
+
+            //узнаем высоту от начала страницы до блока на который ссылается якорь
+            top = $(id).offset().top;
+
+          //анимируем переход на расстояние - top за 1500 мс
+          $('body,html').animate({
+            scrollTop: top
+          }, 800);
+        });
+      });
+    </script>
+    <!-- SCROLLING END -->
+
+
+    <!-- SCRIPT FOR GOOGLE MAP START -->
+    <script>
+      (function() {
+        var setting = {
+          "height": 400,
+          "width": 400,
+          "zoom": 16,
+          "queryString": "ТОО \"CNDL\", Староэлеваторская, Алматы, Казахстан",
+          "place_id": "ChIJ63pChOFsgzgRAgXSEU2smZE",
+          "satellite": false,
+          "centerCoord": [43.32560499507218, 76.9613609150774],
+          "cid": "0x9199ac4d11d20502",
+          "id": "map-9cd199b9cc5410cd3b1ad21cab2e54d3",
+          "embed_id": "44775"
+        };
+        var d = document;
+        var s = d.createElement('script');
+        s.src = 'https://1map.com/js/script-for-user.js?embed_id=44775';
+        s.async = true;
+        s.onload = function(e) {
+          window.OneMap.initMap(setting)
+        };
+        var to = d.getElementsByTagName('script')[0];
+        to.parentNode.insertBefore(s, to);
+      })();
+    </script><a href="https://1map.com/map-embed?embed_id=44775"></a>
+  </div>
+  <!-- SCRIPT FOR GOOGLE MAP END -->
+
+  <!-- SCRIPT FOR FADE IN START -->
+  <script src="Scripts/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+  <!-- SCRIPT FOR FADE IN END -->
+
+    <!-- SLIDER ZOOMING POPUP START -->
+    <script>
+// Get the modal
+var modal = document.getElementById("myModal");
+var modal1 = document.getElementById("myModal1");
+var modal2 = document.getElementById("myModal2");
+var modal3 = document.getElementById("myModal3");
+var modal4 = document.getElementById("myModal4");
+var modal5 = document.getElementById("myModal5");
+var modal6 = document.getElementById("myModal6");
+var modal7 = document.getElementById("myModal7");
+var modal8 = document.getElementById("myModal8");
+
+// Get the button that opens the modal
+var btn = document.getElementById("zoom_picture");
+var btn1 = document.getElementById("zoom_picture1");
+var btn2 = document.getElementById("zoom_picture2");
+var btn3 = document.getElementById("zoom_picture3");
+var btn4 = document.getElementById("zoom_picture4");
+var btn5 = document.getElementById("zoom_picture5");
+var btn6 = document.getElementById("zoom_picture6");
+var btn7 = document.getElementById("zoom_picture7");
+var btn8 = document.getElementById("zoom_picture8");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+var span1 = document.getElementsByClassName("close1")[0];
+var span2 = document.getElementsByClassName("close2")[0];
+var span3 = document.getElementsByClassName("close3")[0];
+var span4 = document.getElementsByClassName("close4")[0];
+var span5 = document.getElementsByClassName("close5")[0];
+var span6 = document.getElementsByClassName("close6")[0];
+var span7 = document.getElementsByClassName("close7")[0];
+var span8 = document.getElementsByClassName("close8")[0];
+
+// When the user clicks the button, open the modal
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+btn1.onclick = function() {
+  modal1.style.display = "block";
+}
+
+btn2.onclick = function() {
+  modal2.style.display = "block";
+}
+
+btn3.onclick = function() {
+  modal3.style.display = "block";
+}
+
+btn4.onclick = function() {
+  modal4.style.display = "block";
+}
+
+btn5.onclick = function() {
+  modal5.style.display = "block";
+}
+
+btn6.onclick = function() {
+  modal6.style.display = "block";
+}
+
+btn7.onclick = function() {
+  modal7.style.display = "block";
+}
+
+btn8.onclick = function() {
+  modal8.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+span1.onclick = function() {
+  modal1.style.display = "none";
+}
+span2.onclick = function() {
+  modal2.style.display = "none";
+}
+span3.onclick = function() {
+  modal3.style.display = "none";
+}
+span4.onclick = function() {
+  modal4.style.display = "none";
+}
+span5.onclick = function() {
+  modal5.style.display = "none";
+}
+span6.onclick = function() {
+  modal6.style.display = "none";
+}
+span7.onclick = function() {
+  modal7.style.display = "none";
+}
+span8.onclick = function() {
+  modal8.style.display = "none";
+}
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+  if (event.target == modal1) {
+    modal1.style.display = "none";
+  }
+  if (event.target == modal2) {
+    modal2.style.display = "none";
+  }
+  if (event.target == modal3) {
+    modal3.style.display = "none";
+  }
+  if (event.target == modal4) {
+    modal4.style.display = "none";
+  }
+  if (event.target == modal5) {
+    modal5.style.display = "none";
+  }
+  if (event.target == modal6) {
+    modal6.style.display = "none";
+  }
+  if (event.target == modal7) {
+    modal7.style.display = "none";
+  }
+  if (event.target == modal8) {
+    modal8.style.display = "none";
+  }
+}
+</script>
+    <!-- SLIDER ZOOMING POPUP END -->
+
+
+  <script>
+    $(window).load(function() {
+      $('.flexslider').flexslider({
+        animation: "slide"
+      });
+    });
+  </script>
+
+
+</body>
+
+</html>

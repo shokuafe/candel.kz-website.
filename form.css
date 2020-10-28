@@ -1,0 +1,25 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+}
+
+div {
+  border: 0.2px solid red;
+}
+
+.box_callback_wrapper {
+  text-align: center;
+  height: 100%;
+  background-color: #d0d0d0;
+}
+
+.box_callback {
+  height: 450px;
+  width: 400px;
+  background-color: rgb(231, 140, 134);
+}
+
+.callback {
+  
+}

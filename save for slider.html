@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="Candel.css">
+  <link rel="stylesheet" href="slider.css">
+  <link rel="stylesheet" href="animate.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- JQUERY FOR SCROLLING START-->
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <!-- JQUERY FOR SCROLLING END-->
+  <title>Candel.kz</title>
+</head>
+
+<body>
+  <div class="border_size">
+
+    <!-- HEADER START -->
+    <div class="header" id="header">
+      <ul class="menu_item">
+        <a href="#logo">
+          <div class="header_logo"><img src="Pictures\logo\C.png" alt="" width="40"></div>
+        </a>
+        <li><a href="#products">ПРОДУКТЫ</a></li>
+        <li><a href="#galery">ГАЛЕРЕЯ</a></li>
+        <li><a href="#recomend">ИМЕННО МЫ</a></li>
+        <li><a href="#hz">ХЗ</a></li>
+        <li><a href="#contacts">КОНТАКТЫ</a></li>
+      </ul>
+    </div>
+    <!-- HEADER END -->
+
+
+    <!--NAVBAR MOVING START-->
+    <div class="link_logo"><a name="logo" id="logo"></a></div>
+    <!--NAVBAR MOVING END-->
+
+    <!-- LOGO START -->
+    <!-- <div class="box_logo">
+      <div class="logo_text">
+        <img src="Pictures\logo\Candel.png" alt="" width="800px">
+        <p>Делаем жизнь ярче</p>
+      </div>
+    </div> -->
+    <!-- LOGO END -->
+
+
+    <!--NAVBAR MOVING START-->
+    <div class="link_products"><a name="products" id="products"></a></div>
+    <!--NAVBAR MOVING END-->
+
+    <!-- PRODUCTS START -->
+    <!-- ТУТ НАДО ПОПРАВИТЬ ШИРИНУ, ВЫХОДИТ ЗА РАМКИ -->
+    <!-- <div class="box_products_wrapper">
+      <div class="empty_box">
+        <p>EMPTY SPACE FOR NAVBAR MOVING</p>
+      </div>
+      <h1>Мы производим</h1>
+      <div class="box_products">
+        <div class="product">
+          <a href="javascript:PopUpShow()" class="hover_prod_light"> -->
+    <!-- СКРИПТ ДЛЯ УКАЗАНИЯ НА ВСПЛЫВАЮЩЕЕ ОКНО -->
+    <!-- <img class="prod_image" src="Pictures\products\light_blue.png" alt="">
+          </a>
+          <p class="prod_desc">Свет для заблудших душ</p>
+        </div>
+        <div class="product">
+          <a href="javascript:PopUpShow2()" class="hover_prod_light">
+            <img class="prod_image" src="Pictures\products\tablo_blue.png" alt="">
+          </a>
+          <p class="prod_desc">Расценки на земные блага</p>
+        </div>
+        <div class="product">
+          <a href="javascript:PopUpShow3()" class="hover_prod_light">
+            <img class="prod_image" src="Pictures\products\stella_blue.png" alt="">
+          </a>
+          <p class="prod_desc">Топливо для жизни</p>
+        </div>
+      </div>
+    </div> -->
+    <!-- PRODUCTS END -->
+
+
+    <!--NAVBAR MOVING START-->
+    <div class="link_galery"><a name="galery" id="galery"></a></div>
+    <!--NAVBAR MOVING END-->
+
+    <!-- GALERY START -->
+    <div class="box_galery_wrapper">
+      <div class="empty_box">
+        <p>Галерея</p>
+      </div>
+      <div class="box_galery">
+        <div class="text1">
+          <h2>Табло курсов валют</h2><p>Anisi quae quis elit ipsum quorum duis enim enim quid sunt veniam quis aute minim
+            irure anim quid irure illum quae quae nisi sint nulla cillum sint nisi sunt quid
+            summis malis elit fugiat anim veniam illum fore sunt legam legam.<br>
+          Quis dolor legam elit quid enim irure aliqua illum quis elit enim.</br></p>
+        </div>
+        <div class="text2">
+          <h2>Подвесные фонари</h2><p>Elit illum malis esse multos quem quae sint ipsum elit sunt export elit quid
+            dolore ipsum illum sunt quorum nisi dolor sint nisi quis fugiat minim nulla
+            tempor summis dolore.<br>
+            Edit quis ipsum irure esse elit culpa.</br></p>
+        </div>
+        <div class="text3">
+          <h2>Заправочные стеллы</h2><p>Quae ipsum culpa noster eram quae labore dolor cillum culpa nisi velit summis
+            aute quis.<br>
+            Quae anim legam dolor export irure ipsum nulla quorum nisi duis veniam magna
+            aliqua magna legam eram quid illum esse minim fore.</br></p>
+        </div>
+        <div class="slider_all">
+          <div class="all">
+            <div class="slider">
+              <input checked type="radio" name="respond" id="desktop">
+              <article id="slider">
+                <input checked type="radio" name="slider" id="switch1">
+                <input type="radio" name="slider" id="switch2">
+                <input type="radio" name="slider" id="switch3">
+                <input type="radio" name="slider" id="switch4">
+                <input type="radio" name="slider" id="switch5">
+                <div id="slides">
+                  <div id="overflow">
+                    <div class="image">
+                      <article><img src="Pictures\slider\slider1.png"></article>
+                      <article><img src="Pictures\slider\slider2.png"></article>
+                      <article><img src="Pictures\slider\slider3.png"></article>
+                      <article><img src="Pictures\slider\slider4.png"></article>
+                      <article><img src="Pictures\slider\slider5.jpg"></article>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div id="controls">
+              <label for="switch1"></label>
+              <label for="switch2"></label>
+              <label for="switch3"></label>
+              <label for="switch4"></label>
+              <label for="switch5"></label>
+            </div>
+            <div id="active">
+              <label for="switch1"></label>
+              <label for="switch2"></label>
+              <label for="switch3"></label>
+              <label for="switch4"></label>
+              <label for="switch5"></label>
+            </div>
+            </article>
+          </div>
+          <div class="slider2">
+            <div class="all">
+              <input checked type="radio" name="respond" id="desktop">
+              <article id="slider">
+                <input checked type="radio" name="slider" id="switch1">
+                <input type="radio" name="slider" id="switch2">
+                <input type="radio" name="slider" id="switch3">
+                <input type="radio" name="slider" id="switch4">
+                <input type="radio" name="slider" id="switch5">
+                <div id="slides">
+                  <div id="overflow">
+                    <div class="image">
+                      <article><img src="Pictures\slider\slider3.png"></article>
+                      <article><img src="Pictures\slider\slider2.png"></article>
+                      <article><img src="Pictures\slider\slider1.png"></article>
+                      <article><img src="Pictures\slider\slider4.png"></article>
+                      <article><img src="Pictures\slider\slider5.jpg"></
+                    </div>
+                  </div>
+                </div>
+                <div id="controls">
+                  <label for="switch1"></label>
+                  <label for="switch2"></label>
+                  <label for="switch3"></label>
+                  <label for="switch4"></label>
+                  <label for="switch5"></label>
+                </div>
+                <div id="active">
+                  <label for="switch1"></label>
+                  <label for="switch2"></label>
+                  <label for="switch3"></label>
+                  <label for="switch4"></label>
+                  <label for="switch5"></label>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="slider3">
+            <div class="all">
+              <input checked type="radio" name="respond" id="desktop">
+              <article id="slider">
+                <input checked type="radio" name="slider" id="switch1">
+                <input type="radio" name="slider" id="switch2">
+                <input type="radio" name="slider" id="switch3">
+                <input type="radio" name="slider" id="switch4">
+                <input type="radio" name="slider" id="switch5">
+                <div id="slides">
+                  <div id="overflow">
+                    <div class="image">
+                      <article><img src="Pictures\slider\slider2.png"></article>
+                      <article><img src="Pictures\slider\slider1.png"></article>
+                      <article><img src="Pictures\slider\slider3.png"></article>
+                      <article><img src="Pictures\slider\slider4.png"></article>
+                      <article><img src="Pictures\slider\slider5.jpg"></
+                    </div>
+                  </div>
+                </div>
+                <div id="controls">
+                  <label for="switch1"></label>
+                  <label for="switch2"></label>
+                  <label for="switch3"></label>
+                  <label for="switch4"></label>
+                  <label for="switch5"></label>
+                </div>
+                <div id="active">
+                  <label for="switch1"></label>
+                  <label for="switch2"></label>
+                  <label for="switch3"></label>
+                  <label for="switch4"></label>
+                  <label for="switch5"></label>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- GALERY END -->
+
+
+    <!--NAVBAR MOVING START-->
+    <div class="link_recomend"><a name="recomend" id="recomend"></a></div>
+    <!--NAVBAR MOVING END-->
+
+    <!-- RECOMEND START -->
+    <!-- <div class="box_recomend_wrapper">
+      <div class="empty_box">
+        <p>EMPTY SPACE FOR NAVBAR MOVING</p>
+      </div>
+        <h1>Почему именно мы?</h1>
+      <div class="box_recomend">
+        <div class="recomend_icon1">
+          <p><img src="Pictures/recomend/icon1.png" alt="" class="recomend_text1">
+            <div class="Project-hail"></div>
+            <div class="Project-hail2"></div>
+            <div class="recomend_text_icon">Предоставляем 2 года гарантии на любой товар</div>
+          </p>
+        </div>
+        <div class="recomend_icon1">
+          <p><img src="Pictures/recomend/icon2.png" alt="" class="recomend_text1">
+            <div class="Project-hail"></div>
+            <div class="Project-hail2"></div>
+            <div class="recomend_text_icon">Отправим товар в любую точку земного шара</div>
+          </p>
+        </div>
+        <div class="recomend_icon1">
+          <p><img src="Pictures/recomend/icon3.png" alt="" class="recomend_text1">
+            <div class="Project-hail"></div>
+            <div class="Project-hail2"></div>
+            <div class="recomend_text_icon">Выполним заказ в установленный срок</div>
+          </p>
+        </div>
+        <div class="recomend_icon1">
+          <p><img src="Pictures/recomend/icon4.png" alt="" class="recomend_text1">
+            <div class="Project-hail"></div>
+            <div class="Project-hail2"></div>
+            <div class="recomend_text_icon">Отремонтируем продукт при его поломке</div>
+          </p>
+        </div>
+        <div class="recomend_icon1">
+          <p><img src="Pictures/recomend/icon5.png" alt="" class="recomend_text1">
+            <div class="Project-hail"></div>
+            <div class="Project-hail2"></div>
+            <div class="recomend_text_icon">Для каждого товара сущетвует соответствующая документация об эксплуатации</div>
+          </p>
+        </div>
+        <div class="recomend_icon1">
+          <p><img src="Pictures/recomend/icon6.png" alt="" class="recomend_text1">
+            <div class="Project-hail"></div>
+            <div class="Project-hail2"></div>
+            <div class="recomend_text_icon">Поддерживаем связь с клиентами на постоянной основе</div>
+          </p>
+        </div>
+      </div>
+    </div> -->
+    <!-- RECOMEND END -->
+
+    <!-- NO NAVBAR MOVING FOR COMPANIES -->
+    <!-- COMPANIES START -->
+    <!-- <div class="box_companies_wrapper">
+      <div class="empty_box">
+        <p>EMPTY SPACE FOR NAVBAR MOVING</p>
+      </div>
+      <div class="box_companies_title">
+        <h2>"ТОО" CNDL на рынке уже 10 лет</h2>
+        <p>За это время мы работали и продолжаем работать с такими компаниями как</p>
+      </div>
+        <div class="box_companies">
+          <div class="companies">
+
+          </div>
+        </div>
+
+    </div> -->
+    <!-- COMPANIES START -->
+
+
+
+    <!--NAVBAR MOVING START-->
+    <div class="link_contacts"><a name="contacts" id="contacts"></a></div>
+    <!--NAVBAR MOVING END-->
+
+
+    <!-- CONTACTS START -->
+    <!-- <div class="box_contacts_wrapper">
+      <div class="empty_box">
+        <p>EMPTY SPACE FOR NAVBAR MOVING</p>
+      </div>
+      <h1>Как с нами связаться?</h1>
+      <div class="box_contacts">
+        <div class="contacts_title">
+          <div class="contact_line">
+            <p><img src="Pictures/contacts/location.png" alt="" class="contact_image wow">
+              Адрес офиса: 050022, Алматы, ул. Староэлеваторская, 19
+              </div>
+            </p>
+          <div class="contact_line">
+            <p><img src="Pictures/contacts/phone.png" alt="" class="contact_image wow">Телефон: +7 (727) 385 23 63<br>
+              Телефон: +7 (777) 303 30 30</p>
+          </div>
+          <div class="contact_line">
+            <p><img src="Pictures/contacts/mail.png" alt="" class="contact_image wow">
+              <div class="mail">E-Mail: info@candel.kz</div></p>
+          </div>
+        </div>
+        <div class="map">
+          <div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
+            <div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div>
+          </div>
+        </div>
+      </div>
+      <!-- CONTACTS END -->
+
+
+
+
+    </div> -->
+
+
+    <!-- POPUP START -->
+    <div class="prod_popup" id="popup">
+      <div class="prod_popup_active">
+        <a class="prod_popup_button" href="javascript:PopUpHide()"></a>
+        <div class="prod_popup_content">
+          <img src="Pictures\popup_products\gas1.jpg" alt="">
+          <p class="prod_popup_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum minus voluptates beatae architecto alias voluptatum deleniti nisi officiis earum dignissimos!</p>
+        </div>
+        <div class="prod_popup_content">
+          <img src="Pictures\popup_products\gas2.jpg" alt="">
+          <p class="prod_popup_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, dolor!</p>
+        </div>
+        <div class="prod_popup_content">
+          <img src="Pictures\popup_products\gas3.jpg" alt="">
+          <p class="prod_popup_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, dolor!</p>
+        </div>
+        <div class="prod_popup_content">
+          <img src="Pictures\popup_products\gas1.jpg" alt="">
+          <p class="prod_popup_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, dolor!</p>
+        </div>
+        <div class="prod_popup_content">
+          <img src="Pictures\popup_products\gas2.jpg" alt="">
+          <p class="prod_popup_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, dolor!</p>
+        </div>
+        <div class="prod_popup_content">
+          <img src="Pictures\popup_products\gas3.jpg" alt="">
+          <p class="prod_popup_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, dolor!</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="prod_popup" id="popup2">
+      <div class="prod_popup_active">
+        <a class="prod_popup_button" href="javascript:PopUpHide2()"></a>
+        <div class="prod_popup_content">
+          <img src="Pictures\popup_products\" alt="">
+          <p class="prod_popup_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum minus voluptates beatae architecto alias voluptatum deleniti nisi officiis earum dignissimos!</p>
+        </div>
+        <div class="prod_popup_content">
+          <img src="Pictures\popup_products\gas2.jpg" alt="">
+          <p class="prod_popup_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, dolor!</p>
+        </div>
+        <div class="prod_popup_content">
+          <img src="Pictures\popup_products\gas3.jpg" alt="">
+          <p class="prod_popup_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, dolor!</p>
+        </div>
+        <div class="prod_popup_content">
+          <img src="Pictures\popup_products\gas1.jpg" alt="">
+          <p class="prod_popup_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, dolor!</p>
+        </div>
+        <div class="prod_popup_content">
+          <img src="Pictures\popup_products\gas2.jpg" alt="">
+          <p class="prod_popup_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, dolor!</p>
+        </div>
+        <div class="prod_popup_content">
+          <img src="Pictures\popup_products\gas3.jpg" alt="">
+          <p class="prod_popup_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, dolor!</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="prod_popup" id="popup3">
+      <div class="prod_popup_active">
+        <a class="prod_popup_button" href="javascript:PopUpHide3()"></a>
+        <div class="prod_popup_content">
+          <img src="Pictures\popup_products\" alt="">
+          <p class="prod_popup_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum minus voluptates beatae architecto alias voluptatum deleniti nisi officiis earum dignissimos!</p>
+        </div>
+        <div class="prod_popup_content">
+          <img src="Pictures\popup_products\gas2.jpg" alt="">
+          <p class="prod_popup_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, dolor!</p>
+        </div>
+        <div class="prod_popup_content">
+          <img src="Pictures\popup_products\gas3.jpg" alt="">
+          <p class="prod_popup_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, dolor!</p>
+        </div>
+        <div class="prod_popup_content">
+          <img src="Pictures\popup_products\gas1.jpg" alt="">
+          <p class="prod_popup_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, dolor!</p>
+        </div>
+        <div class="prod_popup_content">
+          <img src="Pictures\popup_products\gas2.jpg" alt="">
+          <p class="prod_popup_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, dolor!</p>
+        </div>
+        <div class="prod_popup_content">
+          <img src="Pictures\popup_products\gas3.jpg" alt="">
+          <p class="prod_popup_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, dolor!</p>
+        </div>
+      </div>
+    </div>
+    <!-- POPUP END -->
+
+
+    <!-- SCRIPT FOR POPUP START-->
+    <script src="http://code.jquery.com/jquery-2.0.2.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        //Скрыть PopUp при загрузке страницы
+        PopUpHide();
+        PopUpHide2();
+        PopUpHide3();
+      });
+      //Функция отображения PopUp
+      function PopUpShow() {
+        $("#popup").show();
+      }
+      //Функция скрытия PopUp
+      function PopUpHide() {
+        $("#popup").hide();
+      }
+
+      function PopUpShow2() {
+        $("#popup2").show();
+      }
+
+      function PopUpHide2() {
+        $("#popup2").hide();
+      }
+
+      function PopUpShow3() {
+        $("#popup3").show();
+      }
+
+      function PopUpHide3() {
+        $("#popup3").hide();
+      }
+    </script>
+    <!-- SCRIPT FOR POPUP END -->
+
+
+    <!-- SCROLLING START-->
+    <script type="text/javascript">
+      $(document).ready(function() {
+
+        //ID блока с ссылками #prime_nav
+        $("#header").on("click", "a", function(event) {
+          //отменяем стандартную обработку нажатия по ссылке
+          event.preventDefault();
+
+          //забираем идентификатор бока с атрибута href
+          var id = $(this).attr('href'),
+
+            //узнаем высоту от начала страницы до блока на который ссылается якорь
+            top = $(id).offset().top;
+
+          //анимируем переход на расстояние - top за 1500 мс
+          $('body,html').animate({
+            scrollTop: top
+          }, 800);
+        });
+      });
+    </script>
+    <!-- SCROLLING END -->
+
+
+    <!-- SCRIPT FOR GOOGLE MAP START -->
+    <script>
+      (function() {
+        var setting = {
+          "height": 400,
+          "width": 400,
+          "zoom": 16,
+          "queryString": "ТОО \"CNDL\", Староэлеваторская, Алматы, Казахстан",
+          "place_id": "ChIJ63pChOFsgzgRAgXSEU2smZE",
+          "satellite": false,
+          "centerCoord": [43.32560499507218, 76.9613609150774],
+          "cid": "0x9199ac4d11d20502",
+          "id": "map-9cd199b9cc5410cd3b1ad21cab2e54d3",
+          "embed_id": "44775"
+        };
+        var d = document;
+        var s = d.createElement('script');
+        s.src = 'https://1map.com/js/script-for-user.js?embed_id=44775';
+        s.async = true;
+        s.onload = function(e) {
+          window.OneMap.initMap(setting)
+        };
+        var to = d.getElementsByTagName('script')[0];
+        to.parentNode.insertBefore(s, to);
+      })();
+    </script><a href="https://1map.com/map-embed?embed_id=44775"></a>
+  </div>
+  <!-- SCRIPT FOR GOOGLE MAP END -->
+
+  <!-- SCRIPT FOR FADE IN START -->
+  <script src="Scripts/wow.min.js"></script>
+  <script>new WOW().init();</script>
+  <!-- SCRIPT FOR FADE IN END -->
+
+</body>
+
+</html>
